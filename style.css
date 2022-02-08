@@ -49,4 +49,26 @@ header {
     position: fixed;
     top: 5vh;
     right: 10vh;
+    z-index: 2;
+}
+
+
+.box {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    
+     
+}
+
+#rosso {
+    background-color: red;
+}
+
+#verde {
+    background-color: green;
+}
+
+#giallo {
+    background-color: yellow;
 }
