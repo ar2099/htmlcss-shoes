@@ -12,35 +12,40 @@
 .menu {
    text-decoration: none;
    color: black;
-   font-size: 1.9em;
-   /* background-color: red; */
+   font-size: 1.7em;
+   background-color: red;
+   display: inline-block;
+   height: 1.3em;
+   width: 1.3em;
+   line-height: 1.3em;
+   text-align: center;
    
 }
 
 .menu02 {
     display: inline-block;
     list-style-type: none;
-    height: 7vh;
-    width: 7vh;
+    height: 4em;
+    width:4em;
     border: 3px black solid;
     border-radius: 50%;
     text-align: center;
-    line-height: 7vh;
-     /* background-color: green;  */
+    line-height: 4em;
+     background-color: green;  
     
 }
 
 ul {
-    /* background-color: yellow; */
+    background-color: yellow; 
     
 }
 
 nav {
-    /* background-color: blueviolet; */
+     background-color: blueviolet; 
 }
 
 header {
-    /* background-color: blue; */
+     background-color: blue; 
     position: fixed;
     top: 5vh;
     right: 10vh;
