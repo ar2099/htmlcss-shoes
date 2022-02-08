@@ -7,6 +7,9 @@
     margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* fine reset  */
 
 
@@ -17,7 +20,7 @@
    text-decoration: none;
    color: black;
    font-size: 1.7em;
-    /* background-color: red;  */
+   /* background-color: red;   */
    display: inline-block;
    height: 1.3em;
    width: 1.3em;
@@ -31,17 +34,18 @@
     list-style-type: none;
     height: 4em;
     width:4em;
-    /* border: 3px black solid; */
+    border: 3px rgb(253, 253, 253) solid; 
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
     line-height: 4em;
-    background-color: white;   
+    background-color: white;
+    margin: 15px;   
     
 }
 
 ul {
-    /* background-color: yellow;  */
+    /* background-color: yellow;   */
     
 }
 
@@ -57,8 +61,11 @@ header {
     z-index: 2;
 }
 
+
 /* inizia il main  */
 
+
+/* impostazioni generali per ogni schermata  */
 
 .box {
     width: 100%;
@@ -95,6 +102,26 @@ header {
   width: 80%;
 }
 
+
+/* pannello rosso */
+#rosso {
+    background-color: red;
+}
+
+
+/* pannello verde  */
+
+#verde {
+    background-color: green;
+}
+
+
+/* pannello giallo  */
+
+#giallo {
+    background-color: yellow;
+}
+
 .scritta-verde {
   font-size: 4em;
   color: green;
@@ -108,16 +135,4 @@ header {
   display: inline-block;
   text-align: center;
   width: 80%;
-}
-
-#rosso {
-    background-color: red;
-}
-
-#verde {
-    background-color: green;
-}
-
-#giallo {
-    background-color: yellow;
 }
