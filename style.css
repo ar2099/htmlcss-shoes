@@ -4,6 +4,44 @@
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
+    margin: 0px;
 }
 
 /* fine reset  */
+
+.menu {
+   text-decoration: none;
+   color: black;
+   font-size: 1.9em;
+   /* background-color: red; */
+   
+}
+
+.menu02 {
+    display: inline-block;
+    list-style-type: none;
+    height: 7vh;
+    width: 7vh;
+    border: 3px black solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 7vh;
+     /* background-color: green;  */
+    
+}
+
+ul {
+    /* background-color: yellow; */
+    
+}
+
+nav {
+    /* background-color: blueviolet; */
+}
+
+header {
+    /* background-color: blue; */
+    position: fixed;
+    top: 5vh;
+    right: 10vh;
+}
