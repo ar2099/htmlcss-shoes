@@ -9,11 +9,15 @@
 
 /* fine reset  */
 
+
+/* inizia l'header (menu)  */
+
+
 .menu {
    text-decoration: none;
    color: black;
    font-size: 1.7em;
-   background-color: red;
+    /* background-color: red;  */
    display: inline-block;
    height: 1.3em;
    width: 1.3em;
@@ -27,30 +31,33 @@
     list-style-type: none;
     height: 4em;
     width:4em;
-    border: 3px black solid;
+    /* border: 3px black solid; */
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
     line-height: 4em;
-     background-color: green;  
+    background-color: white;   
     
 }
 
 ul {
-    background-color: yellow; 
+    /* background-color: yellow;  */
     
 }
 
 nav {
-     background-color: blueviolet; 
+     /* background-color: blueviolet;  */
 }
 
 header {
-     background-color: blue; 
+     /* background-color: blue;  */
     position: fixed;
     top: 5vh;
     right: 10vh;
     z-index: 2;
 }
+
+/* inizia il main  */
 
 
 .box {
@@ -59,6 +66,48 @@ header {
     position: relative;
     
      
+}
+
+.scarpa {
+    position: absolute;
+    top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: inline-block;
+  height: 80%;
+}
+
+.scritta {
+  font-size: 4em;
+  color: yellow;
+  position: absolute;
+    top: 80%;
+  bottom: 20%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
+
+.scritta-verde {
+  font-size: 4em;
+  color: green;
+  position: absolute;
+    top: 80%;
+  bottom: 20%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 80%;
 }
 
 #rosso {
