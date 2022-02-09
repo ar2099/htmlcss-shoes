@@ -100,6 +100,7 @@ header {
   display: inline-block;
   text-align: center;
   width: 80%;
+  text-transform: uppercase;
 }
 
 
@@ -135,4 +136,5 @@ header {
   display: inline-block;
   text-align: center;
   width: 80%;
+  text-transform: uppercase;
 }
